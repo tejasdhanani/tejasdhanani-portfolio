@@ -62,11 +62,11 @@ const AboutSection = () => {
                 <div className="mt-4 md:mt-0 text-left flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                     <p className="text-base lg:text-lg">
-                        Hey, I'm Tejas Dhanani, a tech enthusiast with a degree in Information Technology and 1.5 years of hands-on coding experience.
+                        {`Hey, I'm Tejas Dhanani, a tech enthusiast with a degree in Information Technology and 1.5 years of hands-on coding experience.
                         I love turning ideas into user-friendly software, focusing on Next.js, Javascript, Node.js, and MongoDB.
                         Beyond coding, I'm exploring the latest tech trends, always on the lookout for that next 'aha' moment.
                         If you're after a developer who blends technical skills with creativity, let's connect.
-                        I'm up for coding challenges and discussions on the future of tech. Let's build something awesome together!
+                        I'm up for coding challenges and discussions on the future of tech. Let's build something awesome together!`}
                     </p>
                     <div className="flex flex-row justify-start mt-8">
                         <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>Skills</TabButton>
