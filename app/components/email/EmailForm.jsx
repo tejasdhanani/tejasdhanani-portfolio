@@ -29,6 +29,7 @@ export default function EmailForm() {
         if (!response.ok) {
             console.error("Error: ", resJson.error);
         }
+        e.target.reset()
     };
 
 
